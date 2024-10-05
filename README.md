@@ -19,8 +19,6 @@ All of the datasets are saved in the folder 'Data'. Our datasets are created fro
 
 ## Reproduce the Results
 In our work, we have obtained evaluation results of the following models on NELL-DAG/FB15k-237-DAG/FB15k-DAG datasets under both easy and hard modes:
-[] Q2B+RC(Comm)/RC(Comm+Distr)/RC(Comm+Distr+Mono)
-[] BetaE+RC(Comm)/RC(Comm+Distr)/RC(Comm+Distr+Mono)
-[] ConE+RC(Comm)/RC(Comm+Distr)/RC(Comm+Distr+Mono) 
-
-<img width="524" alt="Screenshot 2024-10-05 at 02 23 35" src="https://github.com/user-attachments/assets/c5e93698-b332-4d58-8c0d-67ffbbf3cd20">
+- Q2B+RC(Comm)/RC(Comm+Distr)/RC(Comm+Distr+Mono)
+- BetaE+RC(Comm)/RC(Comm+Distr)/RC(Comm+Distr+Mono)
+- ConE+RC(Comm)/RC(Comm+Distr)/RC(Comm+Distr+Mono) 

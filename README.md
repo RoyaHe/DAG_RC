@@ -29,12 +29,15 @@ In our work, we have obtained evaluation results of the following models on NELL
 Considering the significant number of experiments, we only display the example commands for reproducing our results of Q2B+RC(Comm)/RC(Comm+Distr)/RC(Comm+Distr+Mono) on NELL-DAG Hard dataset here. The commands for the rest experiments are provided in the bash files.
 
 - To reproduce the result of Q2B+RC(Comm) on NELL-DAG Hard, please run the following command
+
 ` `
 
 - To reproduce the result of Q2B+RC(Comm+Distr) on NELL-DAG Hard, please run the following command
+
 ` `
 
 - To reproduce the result of Q2B+RC(Comm+Distr+Mono) on NELL-DAG Hard, please run the following command
+
 ` `
 
 

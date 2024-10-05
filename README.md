@@ -18,6 +18,11 @@ All of the datasets are saved in the folder 'Data'. Our datasets are created fro
 - tqdm
 
 ## Reproduce the Results
+To reproduce the result of Q2B+RC(Comm) on NELL-DAG Hard, please run the following command
+` `
+To reproduce the result of Q2B+RC(Comm) on NELL-DAG Hard, please run the following command
+` `
+
 In our work, we have obtained evaluation results of the following models on NELL-DAG/FB15k-237-DAG/FB15k-DAG datasets under both easy and hard modes:
 - Q2B+RC(Comm)/RC(Comm+Distr)/RC(Comm+Distr+Mono)
 - BetaE+RC(Comm)/RC(Comm+Distr)/RC(Comm+Distr+Mono)

@@ -4,7 +4,8 @@ This repository is for implementation for the submission "" to WWW2025.
 ------------------------------------
 
 ## 1. Dataset Download
-All of the datasets are saved in the folder 'Data'. Our datasets are created from three different knowledge graphs in different difficulty test modes. Namely,
+The datasets include two parts: tree-form queries and DAG queries. The tree-form queries can be accessed via this [link](http://snap.stanford.edu/betae/KG_data.zip). All DAG queries are saved in the folder 'Data'. 
+Our datasets are created from three different knowledge graphs in different difficulty test modes. Namely,
 - NELL-DAG (Easy) 
 - NELL-DAG (Hard)
 - FB15k-237-DAG (Easy)

@@ -31,7 +31,7 @@ Considering the significant number of experiments, we only display the example c
 - To reproduce the result of Q2B+RC(Comm) on NELL-DAG Hard, please run the following command
 
 ```
-python3 main.py --do_train --do_test --tree_data_path /workspace/KGReasoning_Original/data/NELL-q2b --dag_data_path /workspace/DAG-QA/data/NELL/Hard \
+python3 main.py --do_train --do_test --tree_data_path ./data/NELL-q2b --dag_data_path ./DAG-QA/data/NELL/Hard \
 -n 128 -b 512 -d 400 -g 30 --cpu_num 0 --geo box --valid_steps 30000 -lr 0.0001 --max_steps 450001 \
 --tasks 1p.2p.3p.2i.3i.up.ip.pi.2u.2s.3s.sp.is.us --cuda
 ```
@@ -39,7 +39,10 @@ python3 main.py --do_train --do_test --tree_data_path /workspace/KGReasoning_Ori
 - To reproduce the result of Q2B+RC(Comm+Distr) on NELL-DAG Hard, please run the following command
 
 ```
-
+python3 main.py --do_train --do_test --tree_data_path /workspace/KGReasoning_Original/data/NELL-q2b \
+--dag_data_path /workspace/DAG-QA/data/NELL/Hard --asso_path /workspace/DAG-QA/joint_rel/baseline+asso/NELL_Asso --pretrain True\
+-n 128 -b 512 -d 400 -g 10 --cpu_num 0 --geo box --valid_steps 50000 -lr 0.0001 --max_steps 500001 --pretrain_weight 0.00000001  --box_mode "(none,0.02)" \
+--tasks 1p.2p.3p.2i.3i.up.ip.pi.2u.2s.3s.sp.is.us --cuda \
 ```
 
 - To reproduce the result of Q2B+RC(Comm+Distr+Mono) on NELL-DAG Hard, please run the following command

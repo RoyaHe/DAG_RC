@@ -1,4 +1,4 @@
-# DAG_RC
+# DAGE
 This repository is for implementation for the submission "DAGE: DAG Query Answering via Relational Combinator with Logical Constraints" to WWW2025. 
 
 ------------------------------------

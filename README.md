@@ -81,5 +81,11 @@ python3 main.py --cuda --do_train --do_test \
 --seed 0 --drop 0.2 --tasks 1p.2p.3p.2i.3i.ip.pi.2in.3in.inp.pin.pni.2u.up.2s.3s.sp.is.us.ins \
 ```  
 
+## Additional Constraints
+
+### Distributivity
+
+
+### Monoticity
 
 

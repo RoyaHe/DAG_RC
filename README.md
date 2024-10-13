@@ -12,6 +12,12 @@ Our datasets are created from three different knowledge graphs in different diff
 - FB15k-237-DAG (Hard)
 - FB15k-DAG (Easy)
 - FB15k-DAG (Hard)
+- NELL-Distr
+- FB15k-237-Distr
+- FB15k-Distr
+  
+where datasets NELL-Distr, FB15k-237-Distr and FB15k-Distr are selected out of the train set of NELL-DAG, FB15k-237-DAG and FB15k-DAG, and will be used for
+additional logical constraints regularization.
 
 ## 2. Environment Requirement
 - Python 3.7

@@ -46,7 +46,7 @@ CUDA_VISIBLE_DEVICES=3 python3 main.py --cuda --do_test \
 
 
 ## Pretrain BetaE * FB15k
-CUDA_VISIBLE_DEVICES=0 python3 main.py --cuda --do_train --do_test \
+CUDA_VISIBLE_DEVICES=0 python3 main.py --cuda --do_train \
 --tree_data_path ./data/FB15k-betae \
 --dag_data_path ./DAG-QA/data/FB15k/Hard -n 128 -b 512 -d 400 -g 60 \
 -lr 0.0001 --max_steps 450001 --cpu_num 1 --geo beta --valid_steps 30000 \

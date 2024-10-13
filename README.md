@@ -13,12 +13,12 @@ Our datasets are created from three different knowledge graphs in different diff
 - FB15k-DAG (Easy)
 - FB15k-DAG (Hard)
 
-## Environment Requirement
+## 2. Environment Requirement
 - Python 3.7
 - PyTorch 1.7
 - tqdm
 
-## Reproduce the Results of DAGE
+## 3. Reproduce the Results of DAGE
 In our work, we have implemented DAGE on top of Query2Box, BetaE and ConE and evaluated them on NELL-DAG/FB15k-237-DAG/FB15k-DAG datasets under both easy and hard modes:
 
 - Query2Box + DAGE

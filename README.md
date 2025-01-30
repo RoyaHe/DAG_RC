@@ -1,5 +1,5 @@
 # DAGE
-This repository is for the implementation of the submission "DAGE: DAG Query Answering via Relational Combinator with Logical Constraints" to WWW2025. 
+This repository is for the implementation of the paper [DAGE: DAG Query Answering via Relational Combinator with Logical Constraints](https://arxiv.org/abs/2410.22105) accepted at WWW'25. 
 
 ------------------------------------
 

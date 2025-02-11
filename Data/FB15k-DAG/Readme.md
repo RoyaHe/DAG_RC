@@ -1,1 +1,1 @@
-<img width="720" alt="image" src="https://github.com/user-attachments/assets/730869c8-b825-4d01-91f9-5a5c7f8e313b" />This dataset is too large and will be downloadable from [here](https://drive.google.com/drive/folders/1x0jvn-BjQ-O4C8hLC59PyBkzOhWyayOg?usp=share_link)
+This dataset is too large and will be downloadable from [here](https://drive.google.com/drive/folders/1x0jvn-BjQ-O4C8hLC59PyBkzOhWyayOg?usp=share_link)
